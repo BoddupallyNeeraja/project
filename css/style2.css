@@ -1,0 +1,158 @@
+h1{
+    text-align: center;
+    color: #F8F9FA;
+}
+
+
+ body {
+  background-color: black;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+h2,ol{
+  color: white;
+}
+ul{
+  color: white;
+}
+a {
+  text-align: center;      /* center the whole bar */
+  background-color: rgb(17, 7, 16);
+  padding: 10px 20px;         /* space inside bar */
+}
+
+a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+
+}
+
+a:hover {       /* hover effect */
+  color: grey;
+}
+a:first-child{
+    color:blanchedalmond;
+}
+a:first-child:hover{
+    color:grey;
+}
+a:last-child:hover{
+    color:grey;
+}
+a:last-child{
+    color:bisque;
+}
+a:active{
+color: white;
+}
+img{
+    height: 300px;
+    width: 200px;
+}
+img:hover{
+transform: scale(1.1); 
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+p{
+    color:#F8F9FA;
+    
+}
+p::selection {
+  background: #222121; /* Netflix red */
+  color:#F8F9FA;
+}
+ 
+
+/* General section styling */
+#singers {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+/* Title styling */
+#singers h1 {
+  background-color: rgb(178, 7, 16);
+  display: inline-block;
+  color:#F8F9FA;
+  padding: 8px 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* Table container */
+#singers table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  text-align: center;
+  background-color: #ffffff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Table header */
+#singers th {
+  background-color: rgb(178, 7, 16);
+  color: #F8F9FA;
+  padding: 15px;
+  font-size: 18px;
+  width: 25%; /* Equal column width */
+}
+
+/* Table cells */
+#singers td {
+  border: 1px solid #ccc;
+  padding: 15px;
+  vertical-align: middle;
+  width: 25%;
+  height: 160px; /* Equal row height */
+}
+
+/* Profile images */
+#singers td img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Audio players */
+#singers td audio {
+  width: 200px;
+  height: 35px;
+}
+
+/* Alternate row color for clarity */
+#singers tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Add hover effect */
+#singers tr:hover {
+  background-color: #f2f2f2;
+  transition: background-color 0.3s ease;
+}
+
+form{
+border: 2px solid red;   /* red border */
+  padding: 40px;            /* space inside the form */
+  width: 50%;              
+  color:#F8F9FA;             /* text color */
+  border-radius: 20px;  
+}
+span{
+  color: black;
+  background-color: yellow;
+
+}
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
