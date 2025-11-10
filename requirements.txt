@@ -1,0 +1,5 @@
+faster-whisper>=0.10.0
+TTS>=0.21.3
+torch>=2.2.0
+requests>=2.31.0
+soundfile>=0.12.1
